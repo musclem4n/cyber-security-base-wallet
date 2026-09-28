@@ -1,0 +1,35 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local database and SQLite sidecars
+wallet.sqlite3
+wallet.sqlite3-*
+
+# Environment files and local secrets
+.env
+.env.*
+*.env
+.envrc
+
+# Editors, temporary files, and OS metadata
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.tmp
+*.temp
+*.bak
+*.orig
+*.log
+.DS_Store
+Thumbs.db
+Desktop.ini
